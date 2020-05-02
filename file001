@@ -6,6 +6,6 @@ node('CentOs7'){
 		sh 'echo abc >> test1.txt'
 	}
 	stage('ั้สี'){
-		ifconfig
+		sh 'ifconfig'
 	}	
 }
