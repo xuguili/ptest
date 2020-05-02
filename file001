@@ -1,11 +1,11 @@
-node('CentOs7'){
-	stage('构建'){
+锘縩ode('CentOs7'){
+	stage('鏋勫缓'){
 		echo 'build'
 	}
-	stage('部署'){
+	stage('閮ㄧ讲'){
 		sh 'echo abc >> test1.txt'
 	}
-	stage('验收'){
+	stage('楠屾敹'){
 		sh 'ifconfig'
 	}	
 }
