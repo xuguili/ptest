@@ -1,4 +1,4 @@
-﻿node('CentOs7'){
+node('CentOs7'){
 	stage('构建'){
 		echo 'build'
 	}
